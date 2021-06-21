@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Xanh+Mono&display=swap');
+:root {
+    --main-bg-color: brown;
+    --font1: 'Rubik', sans-serif;
+    --font2: 'Xanh Mono', monospace;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    padding: 1px 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: rgb(73, 11, 11);
+    background-color: rgb(201, 178, 178);
+}
+
+.form-input {
+    padding: 3px 5px;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+}
